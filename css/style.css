@@ -1,0 +1,24 @@
+.elementoPadre{
+    border: 1px solid black;
+    height: 420px;
+
+}
+.elementoHijo{
+    background: gray;
+    padding: 10px;
+
+}
+
+.elementoPrincipal{
+    background: yellow;
+    padding: 10px;
+    /*position: static; /*No se puede mover*/
+    /*position: relative; /*Para poner capa principal(superior)Donde queremos que se coloque el elemento principal. Activado*/
+    top:20px;
+    z-index: 1;/*Le da la prioridad al que tenga z index */
+    left: 10px;
+    /*position: absolute; /Nustra psocicion estara basada en el elemento padre. Elemento flotante. Si yo le pongo que tiene una posicion absoluta seria el principal. Flotar en base al elemento padre*/
+    /*position: fixed; El elemento no se va ver afectada por el scroll posicion fija. Boton de chat*/
+    /*position: sticky; respeta la poricion original y se le dejan los 10 pixeles de espacio entre el elemto principal y la pagina completa/ 
+
+}
